@@ -13,7 +13,7 @@ public class Main {
         ExportCredentials exportCredentials =  new CsvExporter();
         exportCredentials.export(credentialsList);
 
-        System.out.println("*******************");
+        System.out.println("\n**********Mit Verschlüsselung**********");
         Hashdecorator has = new HashsSha256(exportCredentials);
         has.export(credentialsList);
 
