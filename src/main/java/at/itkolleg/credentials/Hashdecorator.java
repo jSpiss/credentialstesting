@@ -12,5 +12,6 @@ public abstract class Hashdecorator implements ExportCredentials{
     @Override
     public void export(List<Credentials> credentialsList) {
 
+        credentials.export(credentialsList);
     }
 }
